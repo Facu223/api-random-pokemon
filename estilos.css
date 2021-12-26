@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+html {
+  box-sizing: border-box;
+  font-size: 80%;
+}
+
+.flex-img {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.button-container .boton {
+  padding: 20px;
+  border: none;
+  background-color: rgb(47, 240, 47);
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.button-container .boton:hover {
+  background-color: red;
+  color: white;
+  transition: all ease 1s;
+  border: 1px solid black;
+}
+
+.flex-img img {
+  width: 20%;
+  height: 20%;
+}
+
+body {
+  background-color: peru;
+  background-image: url(images/fondo.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  font-family: 'Pushster', cursive;}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 22%;
+  margin: 2rem;
+  height: 450px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-header {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.466);
+}
+
+.card-body-img {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: calc(-100px - 5px);
+  background-color: white;
+}
+
+.card-body-title {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+
+span {
+  color: rgb(150, 150, 150);
+  font-weight: 400;
+  margin-left: 0.7rem;
+}
+
+.card-body-text {
+  color: rgb(150, 150, 150);
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-footer-social {
+  text-align: center;
+}
+
+.card-footer-social h3 {
+  font-size: 1.9rem;
+  margin-bottom: -10px;
+}
